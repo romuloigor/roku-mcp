@@ -1,0 +1,13 @@
+[project]
+name = "roku-mcp-server"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp[cli]>=2.3.0",
+    "python-dotenv>=1.2.4",
+    "uvicorn>=0.54.0",
+    "xmltodict>=1.0.4",
+]
